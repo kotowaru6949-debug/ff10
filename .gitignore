@@ -1,0 +1,20 @@
+# Ignore everything in the game installation directory by default
+*
+!.gitignore
+!README.md
+!build.ps1
+!src/
+!src/**
+!FFXComfortTool.exe
+
+# Original game files & directories (never commit)
+data/
+magicFiles/
+*.vbf
+*.dll
+FFX.exe
+FFX-2.exe
+FFX&X-2_LAUNCHER.exe
+FFX&X-2_Will.exe
+*.log
+UnX*
